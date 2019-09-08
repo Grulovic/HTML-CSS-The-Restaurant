@@ -1,0 +1,100 @@
+<!--
+Stefan Grulović (20150280) - CS206 Project
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Restaurant - Booking</title>                         
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="all" type="text/css" href="assets/css/main.css">
+	<script type="text/javascript" src="assets/js/scripts.js"></script>
+</head>
+<body>
+<header><a href="index.html"><img src="assets/images/header5.png" alt="The Restaurant Header Image"/></a></header>
+<div class="all">
+
+<nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About us</a></li>
+  <li><a href="menu.html">Menu</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="offers.html">Special Offers</a></li>
+  <li><a class="active" href="booking.html">Booking</a></li>
+  <li><a href="press.html">Press</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="feedback.html">Feedback</a></li>
+</ul>
+</nav>
+
+
+
+
+<aside>
+	<h2>Some Information</h2> 
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ 	Nulla viverra porta tristique. Quisque at interdum justo, nec sollicitudin enim.
+	Ut laoreet ipsum vitae odio convallis mollis. Etiam molestie sem eget urna pulvinar tincidunt.
+	Donec feugiat tortor nunc, nec aliquam erat elementum nec.
+    In nisi libero, posuere ut lectus vitae, vestibulum volutpat risus.</p>
+    
+    <h2>Follow Us</h2> 
+    <ul id="menu">
+	<li style="background: url('assets/images/facebook.png') left center no-repeat;"><a href="http://www.facebook.com">Facebook</a></li>
+	<li style="background: url('assets/images/instagram.png') left center no-repeat;"><a href="http://www.instagram.com">Instagram</a></li>
+	<li style="background: url('assets/images/twitter.png') left center no-repeat;"><a href="http://www.twitter.com">Twitter</a></li>
+	</ul>    
+</aside>
+
+
+
+
+<article>
+    <h2>Make a <span>Reservation</span></h2>
+  <form id="form" name="ReservationForm" action="#" method="post" >
+    
+      <input name="Name" placeholder="Your name" type="text">
+    
+      <input name="Email" placeholder="Your Email Address" type="email">
+    
+      <input name="Phone" placeholder="Your Phone Number" type="tel">
+    
+      <input name="Rdate" type="date">
+    
+    <h4>Party of:</h4>
+    <select name="Party">
+	  <option value="0">-</option>
+	  <option value="1">1</option>
+	  <option value="2">2</option>
+	  <option value="3">3</option>
+	  <option value="4">4</option>
+	  <option value="5">5</option>
+	  <option value="6">6</option>
+	  <option value="7">7</option>
+	  <option value="8">8</option>
+	  <option value="9">9</option>
+	  <option value="10">10</option>
+	</select>
+    
+      <textarea name="Request" placeholder="Type your special request here...."></textarea>
+    
+      <button name="submit" type="submit" id="contact-submit" onClick="reservation()">Submit</button>
+    
+  </form>
+</article>
+
+
+
+
+
+
+<footer>
+<p> Copyright &#169; 2017 Stefan Grulović<br>
+<a href="mailto:20150280@student.act.edu">20150280@student.act.edu</a></p>
+</footer>
+<div id="bottom"></div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!--
+Stefan Grulović (20150280) - CS206 Project
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Restaurant - Feedback</title>                         
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="all" type="text/css" href="assets/css/main.css">
+	<script type="text/javascript" src="assets/js/scripts.js"></script>
+
+</head>
+<body>
+<header><a href="index.html"><img src="assets/images/header5.png" alt="The Restaurant Header Image"/></a></header>
+<div class="all">
+
+<nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About us</a></li>
+  <li><a href="menu.html">Menu</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="offers.html">Special Offers</a></li>
+  <li><a href="booking.html">Booking</a></li>
+  <li><a href="press.html">Press</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a class="active" href="feedback.html">Feedback</a></li>
+</ul>
+</nav>
+
+
+
+
+
+<aside>
+	<h2>Some Information</h2> 
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ 	Nulla viverra porta tristique. Quisque at interdum justo, nec sollicitudin enim.
+	Ut laoreet ipsum vitae odio convallis mollis. Etiam molestie sem eget urna pulvinar tincidunt.
+	Donec feugiat tortor nunc, nec aliquam erat elementum nec.
+    In nisi libero, posuere ut lectus vitae, vestibulum volutpat risus.</p>
+    
+    <h2>Follow Us</h2> 
+    <ul id="menu">
+	<li style="background: url('assets/images/facebook.png') left center no-repeat;"><a href="http://www.facebook.com">Facebook</a></li>
+	<li style="background: url('assets/images/instagram.png') left center no-repeat;"><a href="http://www.instagram.com">Instagram</a></li>
+	<li style="background: url('assets/images/twitter.png') left center no-repeat;"><a href="http://www.twitter.com">Twitter</a></li>
+	</ul>    
+</aside>
+
+<article>
+<h2>Give Us <span>Feedback</span></h2>
+	<form id="form" name="FeedbackForm" action="#" method="post" onSubmit="return feedback_form_validation()">
+	
+	<input type="text" name="Name" placeholder="Your name">
+	<input type="text" name="Email" placeholder="Your Email Address">
+	
+	<h4>Rating:</h4>
+	<p> 1<input type="radio" name="rad" value = "1"> 
+		2<input type="radio" name="rad" value = "2"> 
+		3<input type="radio" name="rad" value = "3"> 
+		4<input type="radio" name="rad" value = "4"> 
+		5<input type="radio" name="rad" value = "5"></p>
+
+	<textarea name="Feedback" rows="5" cols="40" placeholder="Type your feedback here...."></textarea>
+
+	<button type="submit" value="Submit">Submit</button>
+</form>
+</article>
+
+
+<article id="js_user_feedback"></article>
+
+<article>
+    <h2>Johndadasadsdas <span>Feedback</span><span class="rating">Rating: 5</span></h2>
+    <p>Nulla viverra porta tristique. Quisque at interdum justo, nec sollicitudin enim.
+  Ut laoreet ipsum vitae odio convallis mollis. Etiam molestie sem eget urna pulvinar tincidunt.
+   Donec feugiat tortor nunc, nec aliquam erat elementum nec.
+    In nisi libero, posuere ut lectus vitae, vestibulum volutpat</p>
+</article>
+
+<article>
+    <h2>Maria <span>Feedback</span><span class="rating">Rating: 3</span></h2>
+    <p>Etiam molestie sem eget urna pulvinar tincidunt.
+   Donec feugiat tortor nunc, nec aliquam erat elementum nec.
+    In nisi libero, posuere ut lectus vitae, vestibulum volutpat</p>
+</article>
+
+<article>
+    <h2>Mike <span>Feedback</span><span class="rating">Rating:4</span></h2>
+    <p>Nulla viverra porta tristique. Quisque at interdum justo, nec sollicitudin enim.
+  Ut laoreet ipsum vitae odio convallis mollis. Etiam molestie sem eget urna pulvinar tincidunt.
+   </p>
+</article>
+
+<article>
+    <h2>Anna <span>Feedback</span><span class="rating">Rating: 4</span></h2>
+    <p>Donec feugiat tortor nunc, nec aliquam erat elementum nec.</p>
+</article>
+
+<article>
+    <h2>Anonymous <span>Feedback</span><span class="rating">Rating: 2</span></h2>
+    <p>Donec feugiat tortor nunc, nec aliquam erat elementum nec.</p>
+</article>
+
+<article>
+    <h2>Anonymous <span>Feedback</span><span class="rating">Rating: 1</span></h2>
+    <p>Donec feugiat tortor nunc.</p>
+</article>
+
+
+
+
+
+
+<footer>
+<p> Copyright &#169; 2017 Stefan Grulović<br>
+<a href="mailto:20150280@student.act.edu">20150280@student.act.edu</a></p>
+</footer>
+<div id="bottom"></div>
+
+</div>
+</body>
+</html>
